@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Home from "./screens/Home";
+import Login from "./screens/Login";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
